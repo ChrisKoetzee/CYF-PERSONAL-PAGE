@@ -1,0 +1,205 @@
+a {
+    color: white;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    margin: 0;
+    padding: 15px;
+    text-align: justify;
+  }
+  .navbar {
+    background-color: lightcoral;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    height: 50px;
+  }
+  
+  section {
+    color: black;
+  }
+  body {
+    background-image: url("https://images.unsplash.com/photo-1555181937-efe4e074a301?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-backgound-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: arial, helvetica, sans-serif;
+  }
+  
+  html,
+  background {
+    background-image: linear-gradient(60deg, orangered, maroon); 
+  }
+  
+  .container{
+    padding: 0 1em;
+    max-width: 60rem;
+    margin: auto;
+  }
+  #Home {
+    text-align: center;
+    padding: 25px;
+    min-height: 100vh;
+    font-size: 15px;
+  }
+  .title-main {
+    text-decoration: underline;
+    text-align: top;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  .c-site-header {
+    text-decoration: underline;
+    padding: 30px;
+  }
+  .description {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #About_Me {
+    text-align: center;
+    min-height: 100vh;
+    padding: 50px;
+    margin-top: 60px;
+  }
+  .about {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .hobbies {
+    float: left;
+  }
+  .flip-card-a {
+    background-color: transparent;
+    width: 300px;
+    height: 365px;
+    perspective: 1000px;
+    margin-left: 50px;
+  }
+  .flip-card-inner-a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .flip-card-a:hover .flip-card-inner-a {
+    transform: rotatey(180deg);
+  }
+  .flip-card-front-a,
+  .flip-card-back-a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front-a {
+    background-color: white;
+    color: black;
+  }
+  .flip-card-back-a {
+    background-color: cyan;
+    color: black;
+    transform: rotatey(180deg);
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+  
+  .more {
+    float: right;
+  }
+  .flip-card-b {
+    background-color: transparent;
+    width: 300px;
+    height: 350px;
+    perspective: 1000px;
+    margin-right: 50px;
+  }
+  .flip-card-inner-b {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .flip-card-b:hover .flip-card-inner-b {
+    transform: rotatey(180deg);
+  }
+  .flip-card-front-b,
+  .flip-card-back-b {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-front-b {
+    background-color: white;
+    color: black;
+  }
+  .flip-card-back-b {
+    background-color: cyan;
+    color: black;
+    transform: rotatey(180deg);
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+  }
+  
+  #Motivational {
+    text-align: center;
+    text-decoration: underline;
+    min-height: 100vh;
+    padding: 5px;
+  
+  }
+  .video-name {
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+  
+  #Projects {
+    height: 50vh;
+    margin-left: 200px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .projects {
+    text-decoration: underline;
+  }
+  
+  #Contact_Info {
+    min-height: 50vh;
+    margin-left: 200px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .contact {
+    text-decoration: underline;
+  }
+  
+  .c-site-footer {
+    text-align: center;
+    padding: 100px;
+  }
+  
